@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Slide</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        /* .screen{
+            height: 720px;
+            width: 1280px;
+            align-content: center;
+            background-color: aqua;
+        } */
+
+        .slide{
+            padding: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 1080px;
+            height: 520px;
+            background-image: linear-gradient(135deg, #000032, #f20062);
+            overflow: hidden;
+        }
+
+        .question{
+            padding:10px;
+            min-height: 120px;
+            border-radius: 10px;
+            align-content: center;
+            color: #fff;
+            background-color: #1b0d46ab;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .options{
+            width: 960px;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            column-gap: 30px;
+            padding: 30px 0px;
+        }
+        .options div{
+            width: 410px;
+            min-width: 410px;
+            min-height: 90px;
+            border-radius: 10px;
+            padding: 8px;
+            color: white;
+            background-color: #1b0d46ab;
+            font-size: 38px;
+            line-height: 1.2;
+            text-align: center;
+            align-content: center;
+        }
+        .option_correct{
+            /* text-decoration:underline; */
+            background-color: #f20062aa !important;
+        }
+        .circle{
+            background-color: #ffffff15;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+            position: absolute;
+        }
+        #c1{top:90px;left:125px;height: 100px;width: 100px;}
+        #c2{top:60px;left:70px;height: 70px;width: 70px;}
+        #c3{top:150px;left:50px;height: 100px;width: 100px;}
+        #c4{top:2px;left:120px;height: 60px;width: 60px;}
+        #c5{top:225px;left:-25px;height: 135px;width: 135px;}
+        #c6{top:460px;left:125px;height: 180px;width: 180px;}
+        #c7{top:420px;left:846px;height: 100px;width: 100px;}
+        #c8{top:340px;left:880px;height: 140px;width: 140px;}
+        #c9{top:240px;left:920px;height: 80px;width: 80px;}
+        #c10{top:270px;left:940px;height: 120px;width: 120px;}
+        #c11{top:200px;left:1020px;height: 50px;width: 50px;}
+        #c12{top:420px;left:1040px;height: 90px;width: 90px;}
+    </style>
+</head>
+<body>
+    <div class="screen" >
+    <div id="id_slide" class="slide">
+        <div id="c1" class="circle"></div>
+        <div id="c2" class="circle"></div>
+        <div id="c2" class="circle"></div>
+        <div id="c3" class="circle"></div>
+        <div id="c4" class="circle"></div>
+        <div id="c5" class="circle"></div>
+        <div id="c6" class="circle"></div>
+        <div id="c7" class="circle"></div>
+        <div id="c8" class="circle"></div>
+        <div id="c9" class="circle"></div>
+        <div id="c10" class="circle"></div>
+        <div id="c11" class="circle"></div>
+        <div id="c12" class="circle"></div>
+        <div id="id_question" class="question">
+            This is a serious please select the one correct optino
+            please select the one correct optino
+            please select the one correct optino
+            please select the one correct optino form below?
+        </div>
+        <div class="options">
+                <div id="id_option_1">option 1 option 1 option 1 option 1 option 1 option 1</div>
+                <div id="id_option_2" class="option_correct_">option 2 option</div>
+                <div id="id_option_3">option 3  option option option</div>
+                <div id="id_option_4">option 4  option option option option</div>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
